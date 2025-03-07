@@ -1,0 +1,58 @@
+2025-03-06 19:23:10,238 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:23:10,282 - INFO - Loaded 390 records of stock data
+2025-03-06 19:23:10,282 - INFO - Calculating technical indicators...
+2025-03-06 19:23:10,298 - INFO - Technical indicators saved to data/stock_data_features.parquet
+2025-03-06 19:23:10,298 - INFO - 
+Latest Technical Indicators:
+2025-03-06 19:23:10,298 - ERROR - Error calculating indicators: unsupported format string passed to Series.__format__
+2025-03-06 19:23:10,298 - ERROR - Unexpected error: unsupported format string passed to Series.__format__
+2025-03-06 19:24:14,639 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:24:14,683 - INFO - Loaded 390 records of stock data
+2025-03-06 19:24:14,683 - INFO - Calculating technical indicators...
+2025-03-06 19:24:14,699 - INFO - Technical indicators saved to data/stock_data_features.parquet
+2025-03-06 19:24:14,699 - INFO - 
+Latest Technical Indicators:
+2025-03-06 19:24:14,700 - INFO - RSI: 47.74
+2025-03-06 19:24:14,700 - INFO - MACD: 0.16
+2025-03-06 19:24:14,700 - INFO - Volume Change: 95.53%
+2025-03-06 19:24:14,701 - INFO - Volatility: 0.18%
+2025-03-06 19:25:26,333 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:25:26,376 - INFO - Loaded 390 records of stock data
+2025-03-06 19:25:26,376 - INFO - Calculating technical indicators...
+2025-03-06 19:25:26,392 - INFO - Technical indicators saved to data/stock_data_features.parquet
+2025-03-06 19:25:26,393 - INFO - 
+Latest Technical Indicators:
+2025-03-06 19:25:26,393 - INFO - RSI: 47.74
+2025-03-06 19:25:26,393 - INFO - MACD: 0.16
+2025-03-06 19:25:26,393 - INFO - Volume Change: 95.53%
+2025-03-06 19:25:26,393 - INFO - Volatility: 0.18%
+2025-03-06 19:26:10,514 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:26:10,558 - INFO - Loaded 390 records of stock data
+2025-03-06 19:26:10,558 - INFO - Calculating technical indicators...
+2025-03-06 19:26:10,573 - INFO - Technical indicators saved to data/stock_data_features.parquet
+2025-03-06 19:26:10,574 - INFO - 
+Latest Technical Indicators:
+2025-03-06 19:26:10,574 - INFO - RSI: 47.74
+2025-03-06 19:26:10,574 - INFO - MACD: 0.16
+2025-03-06 19:26:10,574 - INFO - Volume Change: 95.53%
+2025-03-06 19:26:10,574 - INFO - Volatility: 0.18%
+2025-03-06 19:26:47,289 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:26:47,333 - INFO - Loaded 390 records of stock data
+2025-03-06 19:26:47,333 - INFO - Calculating technical indicators...
+2025-03-06 19:26:47,349 - INFO - Technical indicators saved to data/stock_data_features.parquet
+2025-03-06 19:26:47,349 - INFO - 
+Latest Technical Indicators:
+2025-03-06 19:26:47,349 - INFO - RSI: 47.74
+2025-03-06 19:26:47,349 - INFO - MACD: 0.16
+2025-03-06 19:26:47,350 - INFO - Volume Change: 95.53%
+2025-03-06 19:26:47,350 - INFO - Volatility: 0.18%
+2025-03-06 19:27:29,748 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:27:29,792 - INFO - Loaded 390 records of stock data
+2025-03-06 19:27:29,792 - INFO - Calculating technical indicators...
+2025-03-06 19:27:29,808 - INFO - Technical indicators saved to data/stock_data_features.parquet
+2025-03-06 19:27:29,808 - INFO - 
+Latest Technical Indicators:
+2025-03-06 19:27:29,809 - INFO - RSI: 47.74
+2025-03-06 19:27:29,809 - INFO - MACD: 0.16
+2025-03-06 19:27:29,809 - INFO - Volume Change: 95.53%
+2025-03-06 19:27:29,809 - INFO - Volatility: 0.18%

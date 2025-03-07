@@ -1,0 +1,253 @@
+2025-03-06 19:32:04,486 - INFO - 
+Scraping tweets for: $AAPL
+2025-03-06 19:32:04,487 - INFO - 🔍 Scraping tweets for '$AAPL'...
+2025-03-06 19:32:04,487 - INFO - ====== WebDriver manager ======
+2025-03-06 19:32:04,793 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:32:04,833 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:32:04,866 - INFO - There is no [mac64] chromedriver "133.0.6943.141" for browser google-chrome "133.0.6943" in cache
+2025-03-06 19:32:04,877 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:32:05,126 - INFO - WebDriver version 133.0.6943.141 selected
+2025-03-06 19:32:05,128 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/mac-arm64/chromedriver-mac-arm64.zip
+2025-03-06 19:32:05,128 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/mac-arm64/chromedriver-mac-arm64.zip
+2025-03-06 19:32:05,204 - INFO - Driver downloading response is 200
+2025-03-06 19:32:05,616 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:32:05,719 - INFO - Driver has been saved in cache [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141]
+2025-03-06 19:32:32,135 - INFO - ✅ Scraped 60 tweets for '$AAPL'
+2025-03-06 19:32:32,135 - INFO - 
+Scraping tweets for: Elon Musk
+2025-03-06 19:32:32,135 - INFO - 🔍 Scraping tweets for 'Elon Musk'...
+2025-03-06 19:32:32,135 - INFO - ====== WebDriver manager ======
+2025-03-06 19:32:32,353 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:32:32,401 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:32:32,436 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:32:58,500 - INFO - ✅ Scraped 60 tweets for 'Elon Musk'
+2025-03-06 19:32:58,500 - INFO - 
+Scraping tweets for: POTUS
+2025-03-06 19:32:58,500 - INFO - 🔍 Scraping tweets for 'POTUS'...
+2025-03-06 19:32:58,500 - INFO - ====== WebDriver manager ======
+2025-03-06 19:32:58,722 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:32:58,755 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:32:58,786 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:33:22,984 - INFO - ✅ Scraped 30 tweets for 'POTUS'
+2025-03-06 19:33:22,984 - INFO - 
+Scraping tweets for: Doge
+2025-03-06 19:33:22,984 - INFO - 🔍 Scraping tweets for 'Doge'...
+2025-03-06 19:33:22,984 - INFO - ====== WebDriver manager ======
+2025-03-06 19:33:23,200 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:33:23,233 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:33:23,263 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:33:43,028 - INFO - ✅ Scraped 100 tweets for 'Doge'
+2025-03-06 19:33:43,028 - INFO - 
+Scraping tweets for: Bitcoin
+2025-03-06 19:33:43,028 - INFO - 🔍 Scraping tweets for 'Bitcoin'...
+2025-03-06 19:33:43,028 - INFO - ====== WebDriver manager ======
+2025-03-06 19:33:43,246 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:33:43,282 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:33:43,311 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:34:05,593 - INFO - ✅ Scraped 100 tweets for 'Bitcoin'
+2025-03-06 19:34:05,593 - INFO - 
+Scraping tweets for: Stock Market
+2025-03-06 19:34:05,593 - INFO - 🔍 Scraping tweets for 'Stock Market'...
+2025-03-06 19:34:05,593 - INFO - ====== WebDriver manager ======
+2025-03-06 19:34:05,810 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:34:05,848 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:34:05,885 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:34:29,976 - INFO - ✅ Scraped 30 tweets for 'Stock Market'
+2025-03-06 19:34:29,976 - INFO - Loading FinBERT model...
+2025-03-06 19:34:46,673 - INFO - Performing sentiment analysis...
+2025-03-06 19:35:06,688 - INFO - 
+💾 Data saved to data/trading_tweets_sentiment.parquet
+2025-03-06 19:35:06,688 - INFO - 
+🔍 Sample tweets and their sentiment:
+2025-03-06 19:35:06,693 - INFO - 
+  User: @@degen1ncrypto
+2025-03-06 19:35:06,693 - INFO -   Tweet: TOPDOGE007 already knows what most dont - $DOGE been making millionaires since day 1
+
+when others pa...
+2025-03-06 19:35:06,693 - INFO -   Sentiment: Neutral (Score: 1.00)
+2025-03-06 19:35:06,694 - INFO - 
+  User: @@degen1ncrypto
+2025-03-06 19:35:06,694 - INFO -   Tweet: been trading doge since 0.002 - $1 possible but needs major catalyst + sustained momentum... learned...
+2025-03-06 19:35:06,694 - INFO -   Sentiment: Positive (Score: 0.99)
+2025-03-06 19:35:06,694 - INFO - 
+  User: @@VinSihavong
+2025-03-06 19:35:06,694 - INFO -   Tweet: I don’t day trade or sell my tokens—I only buy during major dips. I’ve been accumulating Doge since ...
+2025-03-06 19:35:06,694 - INFO -   Sentiment: Positive (Score: 0.99)
+2025-03-06 19:35:06,694 - INFO - 
+  User: @@codecraftsmanio
+2025-03-06 19:35:06,694 - INFO -   Tweet: Gm! That coin flip perfectly captures every Bitcoin trader's daily reality - calculated analysis mee...
+2025-03-06 19:35:06,694 - INFO -   Sentiment: Neutral (Score: 1.00)
+2025-03-06 19:35:06,694 - INFO - 
+  User: @@mdubya_13
+2025-03-06 19:35:06,694 - INFO -   Tweet: We have been inflating money since 0% after the great financial collapse. To get a sense of what Bit...
+2025-03-06 19:35:06,694 - INFO -   Sentiment: Neutral (Score: 1.00)
+2025-03-06 19:38:00,466 - INFO - 
+Scraping tweets for: $AAPL
+2025-03-06 19:38:00,467 - INFO - 🔍 Scraping tweets for '$AAPL'...
+2025-03-06 19:38:00,467 - INFO - ====== WebDriver manager ======
+2025-03-06 19:38:00,772 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:38:00,815 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:38:00,846 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:38:25,227 - INFO - ✅ Scraped 5 unique tweets for '$AAPL'
+2025-03-06 19:38:25,227 - INFO - Added 5 new unique tweets for '$AAPL'
+2025-03-06 19:38:25,227 - INFO - 
+Scraping tweets for: Elon Musk
+2025-03-06 19:38:25,227 - INFO - 🔍 Scraping tweets for 'Elon Musk'...
+2025-03-06 19:38:25,227 - INFO - ====== WebDriver manager ======
+2025-03-06 19:38:25,448 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:38:25,491 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:38:25,521 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:38:49,628 - INFO - ✅ Scraped 4 unique tweets for 'Elon Musk'
+2025-03-06 19:38:49,628 - INFO - Added 4 new unique tweets for 'Elon Musk'
+2025-03-06 19:38:49,628 - INFO - 
+Scraping tweets for: POTUS
+2025-03-06 19:38:49,628 - INFO - 🔍 Scraping tweets for 'POTUS'...
+2025-03-06 19:38:49,628 - INFO - ====== WebDriver manager ======
+2025-03-06 19:38:49,853 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:38:49,890 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:38:49,920 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:39:13,174 - INFO - ✅ Scraped 3 unique tweets for 'POTUS'
+2025-03-06 19:39:13,174 - INFO - Added 3 new unique tweets for 'POTUS'
+2025-03-06 19:39:13,174 - INFO - 
+Scraping tweets for: Doge
+2025-03-06 19:39:13,174 - INFO - 🔍 Scraping tweets for 'Doge'...
+2025-03-06 19:39:13,175 - INFO - ====== WebDriver manager ======
+2025-03-06 19:39:13,395 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:39:13,431 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:39:13,461 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:39:40,119 - INFO - ✅ Scraped 17 unique tweets for 'Doge'
+2025-03-06 19:39:40,119 - INFO - Added 17 new unique tweets for 'Doge'
+2025-03-06 19:39:40,119 - INFO - 
+Scraping tweets for: Bitcoin
+2025-03-06 19:39:40,119 - INFO - 🔍 Scraping tweets for 'Bitcoin'...
+2025-03-06 19:39:40,119 - INFO - ====== WebDriver manager ======
+2025-03-06 19:39:40,343 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:39:40,377 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:39:40,405 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:40:04,305 - INFO - ✅ Scraped 13 unique tweets for 'Bitcoin'
+2025-03-06 19:40:04,305 - INFO - Added 13 new unique tweets for 'Bitcoin'
+2025-03-06 19:40:04,305 - INFO - 
+Scraping tweets for: Stock Market
+2025-03-06 19:40:04,305 - INFO - 🔍 Scraping tweets for 'Stock Market'...
+2025-03-06 19:40:04,305 - INFO - ====== WebDriver manager ======
+2025-03-06 19:40:04,531 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:40:04,569 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:40:04,600 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:40:27,836 - INFO - ✅ Scraped 3 unique tweets for 'Stock Market'
+2025-03-06 19:40:27,836 - INFO - Added 3 new unique tweets for 'Stock Market'
+2025-03-06 19:40:27,836 - INFO - 
+Total unique tweets collected: 45
+2025-03-06 19:40:27,836 - INFO - Loading FinBERT model...
+2025-03-06 19:40:29,441 - INFO - Performing sentiment analysis...
+2025-03-06 19:40:33,918 - INFO - 
+💾 Data saved to data/trading_tweets_sentiment.parquet
+2025-03-06 19:40:33,919 - INFO - 
+📊 Tweet Statistics:
+2025-03-06 19:40:33,919 - INFO - Total tweets analyzed: 45
+2025-03-06 19:40:33,922 - INFO - Neutral: 27 tweets (60.0%)
+2025-03-06 19:40:33,922 - INFO - Positive: 12 tweets (26.7%)
+2025-03-06 19:40:33,922 - INFO - Negative: 6 tweets (13.3%)
+2025-03-06 19:40:33,922 - INFO - 
+🔍 Sample unique tweets and their sentiment:
+2025-03-06 19:40:33,927 - INFO - 
+  User: @@degen1ncrypto
+2025-03-06 19:40:33,927 - ERROR - Unexpected error: 'search_term'
+2025-03-06 19:41:28,285 - INFO - 
+Scraping tweets for: $AAPL
+2025-03-06 19:41:28,285 - INFO - 🔍 Scraping tweets for '$AAPL'...
+2025-03-06 19:41:28,285 - INFO - ====== WebDriver manager ======
+2025-03-06 19:41:28,582 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:41:28,622 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:41:28,652 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:41:52,806 - INFO - ✅ Scraped 5 unique tweets for '$AAPL'
+2025-03-06 19:41:52,806 - INFO - Added 5 new unique tweets for '$AAPL'
+2025-03-06 19:41:52,806 - INFO - 
+Scraping tweets for: Elon Musk
+2025-03-06 19:41:52,806 - INFO - 🔍 Scraping tweets for 'Elon Musk'...
+2025-03-06 19:41:52,806 - INFO - ====== WebDriver manager ======
+2025-03-06 19:41:53,037 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:41:53,078 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:41:53,110 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:42:16,696 - INFO - ✅ Scraped 4 unique tweets for 'Elon Musk'
+2025-03-06 19:42:16,696 - INFO - Added 4 new unique tweets for 'Elon Musk'
+2025-03-06 19:42:16,696 - INFO - 
+Scraping tweets for: POTUS
+2025-03-06 19:42:16,696 - INFO - 🔍 Scraping tweets for 'POTUS'...
+2025-03-06 19:42:16,696 - INFO - ====== WebDriver manager ======
+2025-03-06 19:42:16,924 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:42:16,961 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:42:16,987 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:42:40,212 - INFO - ✅ Scraped 3 unique tweets for 'POTUS'
+2025-03-06 19:42:40,212 - INFO - Added 3 new unique tweets for 'POTUS'
+2025-03-06 19:42:40,212 - INFO - 
+Scraping tweets for: Doge
+2025-03-06 19:42:40,212 - INFO - 🔍 Scraping tweets for 'Doge'...
+2025-03-06 19:42:40,212 - INFO - ====== WebDriver manager ======
+2025-03-06 19:42:40,431 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:42:40,464 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:42:40,495 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:43:05,470 - INFO - ✅ Scraped 17 unique tweets for 'Doge'
+2025-03-06 19:43:05,470 - INFO - Added 17 new unique tweets for 'Doge'
+2025-03-06 19:43:05,470 - INFO - 
+Scraping tweets for: Bitcoin
+2025-03-06 19:43:05,470 - INFO - 🔍 Scraping tweets for 'Bitcoin'...
+2025-03-06 19:43:05,470 - INFO - ====== WebDriver manager ======
+2025-03-06 19:43:05,698 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:43:05,733 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:43:05,762 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:43:29,779 - INFO - ✅ Scraped 13 unique tweets for 'Bitcoin'
+2025-03-06 19:43:29,779 - INFO - Added 13 new unique tweets for 'Bitcoin'
+2025-03-06 19:43:29,779 - INFO - 
+Scraping tweets for: Stock Market
+2025-03-06 19:43:29,779 - INFO - 🔍 Scraping tweets for 'Stock Market'...
+2025-03-06 19:43:29,780 - INFO - ====== WebDriver manager ======
+2025-03-06 19:43:30,008 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:43:30,055 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 19:43:30,089 - INFO - Driver [/Users/divyanamburg/.wdm/drivers/chromedriver/mac64/133.0.6943.141/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-06 19:43:53,279 - INFO - ✅ Scraped 3 unique tweets for 'Stock Market'
+2025-03-06 19:43:53,279 - INFO - Added 3 new unique tweets for 'Stock Market'
+2025-03-06 19:43:53,279 - INFO - 
+Total unique tweets collected: 45
+2025-03-06 19:43:53,279 - INFO - Loading FinBERT model...
+2025-03-06 19:43:54,767 - INFO - Performing sentiment analysis...
+2025-03-06 19:43:59,553 - INFO - 
+💾 Data saved to data/trading_tweets_sentiment.parquet
+2025-03-06 19:43:59,553 - INFO - 
+📊 Tweet Statistics:
+2025-03-06 19:43:59,553 - INFO - Total tweets analyzed: 45
+2025-03-06 19:43:59,556 - INFO - Neutral: 27 tweets (60.0%)
+2025-03-06 19:43:59,556 - INFO - Positive: 12 tweets (26.7%)
+2025-03-06 19:43:59,556 - INFO - Negative: 6 tweets (13.3%)
+2025-03-06 19:43:59,556 - INFO - 
+🔍 Sample unique tweets and their sentiment:
+2025-03-06 19:43:59,559 - INFO - 
+  User: @@YC1401
+2025-03-06 19:43:59,559 - INFO -   Tweet: I bought some DOGE this morning...
+
+I could care less red/green, the money I spent would be sitting ...
+2025-03-06 19:43:59,559 - INFO -   Sentiment: Neutral (Score: 1.00)
+2025-03-06 19:43:59,559 - INFO -   Engagement: 0 likes, 0 retweets, 0 replies
+2025-03-06 19:43:59,559 - INFO - 
+  User: @@iskale_
+2025-03-06 19:43:59,559 - INFO -   Tweet: This will go down in history as a Golden Bull Run
+
+Donald Trump & Elon Musk Bull run🔥🔥🔥🔥🔥
+
+I started...
+2025-03-06 19:43:59,559 - INFO -   Sentiment: Negative (Score: 0.58)
+2025-03-06 19:43:59,559 - INFO -   Engagement: 0 likes, 0 retweets, 0 replies
+2025-03-06 19:43:59,559 - INFO - 
+  User: @@dazkloo
+2025-03-06 19:43:59,559 - INFO -   Tweet: I have been in doge since 0.00 :))
+2025-03-06 19:43:59,559 - INFO -   Sentiment: Neutral (Score: 1.00)
+2025-03-06 19:43:59,560 - INFO -   Engagement: 0 likes, 0 retweets, 0 replies
+2025-03-06 19:43:59,560 - INFO - 
+  User: @@CS6543
+2025-03-06 19:43:59,560 - INFO -   Tweet: Considering that if you earnt around $100K every day since 0 B.C. you still wouldn't have as much mo...
+2025-03-06 19:43:59,560 - INFO -   Sentiment: Neutral (Score: 1.00)
+2025-03-06 19:43:59,560 - INFO -   Engagement: 0 likes, 0 retweets, 0 replies
+2025-03-06 19:43:59,560 - INFO - 
+  User: @@Ka1_lambo
+2025-03-06 19:43:59,560 - INFO -   Tweet: Crypto’s soul is $DOGE—been stacking since $0.40 ‘cos it’s more than profits. It’s the people, the m...
+2025-03-06 19:43:59,560 - INFO -   Sentiment: Neutral (Score: 1.00)
+2025-03-06 19:43:59,560 - INFO -   Engagement: 0 likes, 0 retweets, 0 replies

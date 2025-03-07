@@ -1,0 +1,103 @@
+2025-03-06 19:46:02,148 - INFO - 
+Fetching news for: AAPL
+2025-03-06 19:46:02,148 - INFO - 🔍 Fetching news for AAPL...
+2025-03-06 19:46:02,860 - INFO - ✅ Fetched 50 news articles for AAPL
+2025-03-06 19:46:02,861 - INFO - Added 50 new unique articles for 'AAPL'
+2025-03-06 19:46:02,861 - INFO - 
+Fetching news for: TSLA
+2025-03-06 19:46:02,861 - INFO - 🔍 Fetching news for TSLA...
+2025-03-06 19:46:03,570 - INFO - ✅ Fetched 50 news articles for TSLA
+2025-03-06 19:46:03,570 - INFO - Added 49 new unique articles for 'TSLA'
+2025-03-06 19:46:03,570 - INFO - 
+Fetching news for: Cryptocurrency
+2025-03-06 19:46:03,570 - INFO - 🔍 Fetching news for Cryptocurrency...
+2025-03-06 19:46:04,284 - INFO - ✅ Fetched 50 news articles for Cryptocurrency
+2025-03-06 19:46:04,284 - INFO - Added 50 new unique articles for 'Cryptocurrency'
+2025-03-06 19:46:04,284 - INFO - 
+Fetching news for: Stock Market
+2025-03-06 19:46:04,284 - INFO - 🔍 Fetching news for Stock Market...
+2025-03-06 19:46:04,291 - ERROR - Unexpected error: URL can't contain control characters. '/rss/search?q=Stock Market+stock' (found at least ' ')
+2025-03-06 19:51:44,288 - INFO - 
+Fetching news for: AAPL
+2025-03-06 19:51:44,288 - INFO - 🔍 Fetching news for AAPL...
+2025-03-06 19:51:45,071 - INFO - ✅ Fetched 50 news articles for AAPL
+2025-03-06 19:51:45,071 - INFO - Added 49 new unique articles for 'AAPL'
+2025-03-06 19:51:45,071 - INFO - 
+Fetching news for: TSLA
+2025-03-06 19:51:45,071 - INFO - 🔍 Fetching news for TSLA...
+2025-03-06 19:51:45,806 - INFO - ✅ Fetched 50 news articles for TSLA
+2025-03-06 19:51:45,806 - INFO - Added 48 new unique articles for 'TSLA'
+2025-03-06 19:51:45,807 - INFO - 
+Fetching news for: BTC
+2025-03-06 19:51:45,807 - INFO - 🔍 Fetching news for BTC...
+2025-03-06 19:51:46,693 - INFO - ✅ Fetched 50 news articles for BTC
+2025-03-06 19:51:46,693 - INFO - Added 50 new unique articles for 'BTC'
+2025-03-06 19:51:46,693 - INFO - 
+Fetching news for: NVDA
+2025-03-06 19:51:46,693 - INFO - 🔍 Fetching news for NVDA...
+2025-03-06 19:51:47,404 - INFO - ✅ Fetched 50 news articles for NVDA
+2025-03-06 19:51:47,404 - INFO - Added 47 new unique articles for 'NVDA'
+2025-03-06 19:51:47,404 - INFO - 
+Fetching news for: AI-stocks
+2025-03-06 19:51:47,404 - INFO - 🔍 Fetching news for AI-stocks...
+2025-03-06 19:51:48,223 - INFO - ✅ Fetched 50 news articles for AI-stocks
+2025-03-06 19:51:48,223 - INFO - Added 42 new unique articles for 'AI-stocks'
+2025-03-06 19:51:48,223 - INFO - 
+Fetching news for: Fed-rates
+2025-03-06 19:51:48,223 - INFO - 🔍 Fetching news for Fed-rates...
+2025-03-06 19:51:49,043 - INFO - ✅ Fetched 50 news articles for Fed-rates
+2025-03-06 19:51:49,043 - INFO - Added 50 new unique articles for 'Fed-rates'
+2025-03-06 19:51:49,043 - INFO - 
+Fetching news for: market-trends
+2025-03-06 19:51:49,043 - INFO - 🔍 Fetching news for market-trends...
+2025-03-06 19:51:49,810 - INFO - ✅ Fetched 50 news articles for market-trends
+2025-03-06 19:51:49,810 - INFO - Added 40 new unique articles for 'market-trends'
+2025-03-06 19:51:49,810 - INFO - 
+Fetching news for: trading-news
+2025-03-06 19:51:49,810 - INFO - 🔍 Fetching news for trading-news...
+2025-03-06 19:51:50,588 - INFO - ✅ Fetched 50 news articles for trading-news
+2025-03-06 19:51:50,588 - INFO - Added 35 new unique articles for 'trading-news'
+2025-03-06 19:51:50,588 - INFO - 
+Total unique news articles collected: 361
+2025-03-06 19:51:50,588 - INFO - Loading FinBERT model...
+2025-03-06 19:51:52,500 - INFO - Performing sentiment analysis...
+2025-03-06 19:52:34,304 - INFO - 
+💾 Data saved to data/news_sentiment.parquet
+2025-03-06 19:52:34,305 - INFO - 
+📊 News Sentiment Statistics:
+2025-03-06 19:52:34,305 - INFO - Total articles analyzed: 361
+2025-03-06 19:52:34,312 - INFO - Neutral: 241 articles (66.8%)
+2025-03-06 19:52:34,312 - INFO - Negative: 64 articles (17.7%)
+2025-03-06 19:52:34,312 - INFO - Positive: 56 articles (15.5%)
+2025-03-06 19:52:34,312 - INFO - 
+🔍 Sample news articles and their sentiment:
+2025-03-06 19:52:34,317 - INFO - 
+  Source: Mint
+2025-03-06 19:52:34,317 - INFO -   Title: Stock Market News Today Live Updates on March 6, 2025 : Nifty’s relief rally could extend to 22,900 in the short term. But it won’t last long. | Stock Market News - Mint
+2025-03-06 19:52:34,317 - INFO -   Date: Thu, 06 Mar 2025 15:18:35 GMT
+2025-03-06 19:52:34,317 - INFO -   Sentiment: Neutral (Score: 1.00)
+2025-03-06 19:52:34,317 - INFO -   Link: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbWxYb0VrZXpPbWM3bWZZVnNaZ3Nka281UG9iWlJGV3lqZ1JmSHpZWElBMTU3Z3NGX3JHTEdsUVJXcFdvQTdfVEpiRGVwZWhwQmFnckhNYmJfTUNfam9PZ3JpdS1hMTE4ekxIZEs4bThrdG81ZUcxVWpTQ1I4SllJN2FuYnFlWWVid2RmdjdUc2VuVmFiaXFQTU9Wd2FWWS1ORVBkZXBOV3Fub0IwQjUyYnhHUWdQVVh6UURxQ0EyS2HSAcYBQVVfeXFMTWI5Q1FwZV9LWXhNeEpIazNtcXB4bzJjR0J4eG5lTDNoX2c5NlB0cTNlNDdvZWx0UEJkMmM0WkQ0TDdJTnh4eVUtRUV4RFhBdThoMjV4bExMZGJJMGxDTTJrSUw5Y1JRamF3NnNkRWsxdVJuZnlqNVBUV2VRRXlzUk5NNDV1eEVCZ3pDR0hpbnQtZWFTNDhzVXFwOGt6WlRGRm5BNE5tSkpSWUM3QUJUQzMyX19MbGJ4WGRUbS1fQllWR185WXVR?oc=5
+2025-03-06 19:52:34,320 - INFO - 
+  Source: The Motley Fool
+2025-03-06 19:52:34,320 - INFO -   Title: 1 No-Brainer Growth Stock to Buy Right Now for Less Than $1,000 - The Motley Fool
+2025-03-06 19:52:34,320 - INFO -   Date: Mon, 03 Mar 2025 12:00:00 GMT
+2025-03-06 19:52:34,320 - INFO -   Sentiment: Neutral (Score: 1.00)
+2025-03-06 19:52:34,320 - INFO -   Link: https://news.google.com/rss/articles/CBMijwFBVV95cUxNNlNIVkZrZ1NSMW1idHo1cHRyOGtnM1Z5Y2JzSHJyUEQ5NGNHSHQ3Tkkzb3pwZkFBeG40WE80S0JXV0FvS3ZQZmUwZ0UzZTFyN0I4cUUzWGY2bG9ub3V3b3dZMDItd0dUeklmSzNYUVViQUliX0dfbTZpaER3Q1lsMEdKNWFnX0FRcHpfNkJWNA?oc=5
+2025-03-06 19:52:34,320 - INFO - 
+  Source: Yahoo Finance
+2025-03-06 19:52:34,320 - INFO -   Title: Tesla, Inc. (TSLA): Among the Best Stocks To Invest In According to Billionaires - Yahoo Finance
+2025-03-06 19:52:34,320 - INFO -   Date: Wed, 05 Mar 2025 05:13:17 GMT
+2025-03-06 19:52:34,320 - INFO -   Sentiment: Positive (Score: 0.99)
+2025-03-06 19:52:34,320 - INFO -   Link: https://news.google.com/rss/articles/CBMie0FVX3lxTE1uc3FVd0EzZlk4dGJkbF82SEdaOXB5ZnhjVnA1N0s3VnA1TW1FUnNuU2ExSnN4RUMtZVQ0WEZYS1VZd1JLOHpKVzEyb3JjZ0g0R0syQVpVVnJEYTB5WDdTTFphTndyaWlJUHc1NVVVVUhwS3hwREhiemVaZw?oc=5
+2025-03-06 19:52:34,320 - INFO - 
+  Source: Reuters
+2025-03-06 19:52:34,326 - INFO -   Title: What Trump's tariffs mean for markets - Reuters
+2025-03-06 19:52:34,326 - INFO -   Date: Tue, 04 Mar 2025 21:09:54 GMT
+2025-03-06 19:52:34,326 - INFO -   Sentiment: Neutral (Score: 1.00)
+2025-03-06 19:52:34,326 - INFO -   Link: https://news.google.com/rss/articles/CBMiggFBVV95cUxPNXNFRFk1U0V2UzVKQ05mdDkwd1ZDbmVud05nWmJva3JEdU9fS3JibmxRWHk4VUh0dnRESnVuczlHTnRxY0hYQmFwYVY0UGZ1akRuNjFNMTFyblBUZzdzRldRUEpUaFdFU3N0S0NhX1J0V3kyRGl2ZGdmNXVqcGdPbjJB?oc=5
+2025-03-06 19:52:34,327 - INFO - 
+  Source: Yahoo Finance
+2025-03-06 19:52:34,327 - INFO -   Title: Tesla Chair Cashes Out $33.7M--Insider Selling Heats Up - Yahoo Finance
+2025-03-06 19:52:34,327 - INFO -   Date: Tue, 04 Mar 2025 17:37:56 GMT
+2025-03-06 19:52:34,327 - INFO -   Sentiment: Neutral (Score: 1.00)
+2025-03-06 19:52:34,327 - INFO -   Link: https://news.google.com/rss/articles/CBMiekFVX3lxTE0tN3JKUlZCUUFrY3hJeEx4a29wT3pMb3BDVDI1WGwxdjlmRHpENEswUEpBMTA0WWFPc041NmdSMDdDeUo3am1mcENPWXFwd2FPQm5UVVlXdk04OUJHSUpPdHBCT3I3Vkw3SzVIOHNHWUcwOUlrbTJHVWlR?oc=5

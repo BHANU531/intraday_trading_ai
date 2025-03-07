@@ -1,0 +1,149 @@
+2025-03-06 20:34:02,034 - INFO - 📡 Fetching financial data for AAPL...
+2025-03-06 20:34:02,292 - INFO - ✅ Earnings data saved to data/earnings.parquet
+2025-03-06 20:34:02,292 - INFO - 
+Latest Quarterly Results:
+2025-03-06 20:34:02,292 - INFO - Revenue: $nanB
+2025-03-06 20:34:02,292 - INFO - Earnings: $nanB
+2025-03-06 20:34:02,525 - INFO - ✅ Balance sheet data saved to data/balance_sheets.parquet
+2025-03-06 20:34:02,525 - INFO - 
+Latest Balance Sheet Metrics:
+2025-03-06 20:34:02,525 - INFO - Total Assets: $nanB
+2025-03-06 20:34:02,525 - ERROR - Error fetching balance sheet data: 'Total Liabilities Net'
+2025-03-06 20:34:02,659 - INFO - 
+Key Financial Ratios:
+2025-03-06 20:34:02,659 - INFO - P/E Ratio: 37.41
+2025-03-06 20:34:02,659 - INFO - EPS: $6.29
+2025-03-06 20:34:02,659 - INFO - Profit Margin: 24.30%
+2025-03-06 20:34:02,659 - INFO - ROE: 136.52%
+2025-03-06 20:34:02,662 - INFO - ✅ Financial ratios saved to data/financial_ratios.parquet
+2025-03-06 20:34:02,663 - ERROR - 
+❌ Some financial data could not be fetched for AAPL
+2025-03-06 20:34:53,986 - INFO - 📡 Fetching financial data for AAPL...
+2025-03-06 20:34:54,253 - INFO - ✅ Earnings data saved to data/earnings.parquet
+2025-03-06 20:34:54,253 - INFO - 
+Latest Quarterly Results:
+2025-03-06 20:34:54,254 - INFO - Revenue: $nanB
+2025-03-06 20:34:54,254 - INFO - Earnings: $nanB
+2025-03-06 20:34:54,427 - INFO - ✅ Balance sheet data saved to data/balance_sheets.parquet
+2025-03-06 20:34:54,427 - INFO - 
+Latest Balance Sheet Metrics:
+2025-03-06 20:34:54,427 - INFO - Total Assets: $nanB
+2025-03-06 20:34:54,427 - ERROR - Error fetching balance sheet data: 'Total Liabilities'
+2025-03-06 20:34:54,565 - INFO - 
+Key Financial Ratios:
+2025-03-06 20:34:54,565 - INFO - P/E Ratio: 37.41
+2025-03-06 20:34:54,565 - INFO - EPS: $6.29
+2025-03-06 20:34:54,565 - INFO - Profit Margin: 24.30%
+2025-03-06 20:34:54,565 - INFO - ROE: 136.52%
+2025-03-06 20:34:54,568 - INFO - ✅ Financial ratios saved to data/financial_ratios.parquet
+2025-03-06 20:34:54,568 - ERROR - 
+❌ Some financial data could not be fetched for AAPL
+2025-03-06 20:35:22,663 - INFO - 📡 Fetching financial data for AAPL...
+2025-03-06 20:35:22,873 - INFO - ✅ Earnings data saved to data/earnings.parquet
+2025-03-06 20:35:22,874 - INFO - 
+Latest Quarterly Results:
+2025-03-06 20:35:22,874 - INFO - Revenue: $nanB
+2025-03-06 20:35:22,874 - INFO - Earnings: $nanB
+2025-03-06 20:35:23,072 - INFO - 
+Available Balance Sheet Columns:
+2025-03-06 20:35:23,072 - INFO - - Treasury Shares Number
+2025-03-06 20:35:23,072 - INFO - - Ordinary Shares Number
+2025-03-06 20:35:23,072 - INFO - - Share Issued
+2025-03-06 20:35:23,072 - INFO - - Net Debt
+2025-03-06 20:35:23,072 - INFO - - Total Debt
+2025-03-06 20:35:23,072 - INFO - - Tangible Book Value
+2025-03-06 20:35:23,072 - INFO - - Invested Capital
+2025-03-06 20:35:23,072 - INFO - - Working Capital
+2025-03-06 20:35:23,072 - INFO - - Net Tangible Assets
+2025-03-06 20:35:23,072 - INFO - - Capital Lease Obligations
+2025-03-06 20:35:23,072 - INFO - - Common Stock Equity
+2025-03-06 20:35:23,072 - INFO - - Total Capitalization
+2025-03-06 20:35:23,072 - INFO - - Total Equity Gross Minority Interest
+2025-03-06 20:35:23,072 - INFO - - Stockholders Equity
+2025-03-06 20:35:23,072 - INFO - - Gains Losses Not Affecting Retained Earnings
+2025-03-06 20:35:23,072 - INFO - - Other Equity Adjustments
+2025-03-06 20:35:23,072 - INFO - - Retained Earnings
+2025-03-06 20:35:23,072 - INFO - - Capital Stock
+2025-03-06 20:35:23,072 - INFO - - Common Stock
+2025-03-06 20:35:23,072 - INFO - - Total Liabilities Net Minority Interest
+2025-03-06 20:35:23,072 - INFO - - Total Non Current Liabilities Net Minority Interest
+2025-03-06 20:35:23,072 - INFO - - Other Non Current Liabilities
+2025-03-06 20:35:23,072 - INFO - - Tradeand Other Payables Non Current
+2025-03-06 20:35:23,072 - INFO - - Long Term Debt And Capital Lease Obligation
+2025-03-06 20:35:23,072 - INFO - - Long Term Capital Lease Obligation
+2025-03-06 20:35:23,072 - INFO - - Long Term Debt
+2025-03-06 20:35:23,072 - INFO - - Current Liabilities
+2025-03-06 20:35:23,072 - INFO - - Other Current Liabilities
+2025-03-06 20:35:23,073 - INFO - - Current Deferred Liabilities
+2025-03-06 20:35:23,073 - INFO - - Current Deferred Revenue
+2025-03-06 20:35:23,073 - INFO - - Current Debt And Capital Lease Obligation
+2025-03-06 20:35:23,073 - INFO - - Current Capital Lease Obligation
+2025-03-06 20:35:23,073 - INFO - - Current Debt
+2025-03-06 20:35:23,073 - INFO - - Other Current Borrowings
+2025-03-06 20:35:23,073 - INFO - - Commercial Paper
+2025-03-06 20:35:23,073 - INFO - - Payables And Accrued Expenses
+2025-03-06 20:35:23,073 - INFO - - Payables
+2025-03-06 20:35:23,073 - INFO - - Total Tax Payable
+2025-03-06 20:35:23,073 - INFO - - Income Tax Payable
+2025-03-06 20:35:23,073 - INFO - - Accounts Payable
+2025-03-06 20:35:23,073 - INFO - - Total Assets
+2025-03-06 20:35:23,073 - INFO - - Total Non Current Assets
+2025-03-06 20:35:23,073 - INFO - - Other Non Current Assets
+2025-03-06 20:35:23,073 - INFO - - Non Current Deferred Assets
+2025-03-06 20:35:23,073 - INFO - - Non Current Deferred Taxes Assets
+2025-03-06 20:35:23,073 - INFO - - Investments And Advances
+2025-03-06 20:35:23,073 - INFO - - Investmentin Financial Assets
+2025-03-06 20:35:23,073 - INFO - - Available For Sale Securities
+2025-03-06 20:35:23,073 - INFO - - Net PPE
+2025-03-06 20:35:23,073 - INFO - - Accumulated Depreciation
+2025-03-06 20:35:23,073 - INFO - - Gross PPE
+2025-03-06 20:35:23,073 - INFO - - Leases
+2025-03-06 20:35:23,073 - INFO - - Other Properties
+2025-03-06 20:35:23,073 - INFO - - Machinery Furniture Equipment
+2025-03-06 20:35:23,073 - INFO - - Land And Improvements
+2025-03-06 20:35:23,073 - INFO - - Properties
+2025-03-06 20:35:23,073 - INFO - - Current Assets
+2025-03-06 20:35:23,073 - INFO - - Other Current Assets
+2025-03-06 20:35:23,073 - INFO - - Inventory
+2025-03-06 20:35:23,073 - INFO - - Finished Goods
+2025-03-06 20:35:23,073 - INFO - - Raw Materials
+2025-03-06 20:35:23,073 - INFO - - Receivables
+2025-03-06 20:35:23,073 - INFO - - Other Receivables
+2025-03-06 20:35:23,073 - INFO - - Accounts Receivable
+2025-03-06 20:35:23,073 - INFO - - Cash Cash Equivalents And Short Term Investments
+2025-03-06 20:35:23,073 - INFO - - Other Short Term Investments
+2025-03-06 20:35:23,073 - INFO - - Cash And Cash Equivalents
+2025-03-06 20:35:23,073 - INFO - - Cash Equivalents
+2025-03-06 20:35:23,073 - INFO - - Cash Financial
+2025-03-06 20:35:23,074 - ERROR - Error fetching balance sheet data: 'Total Liab'
+2025-03-06 20:35:23,213 - INFO - 
+Key Financial Ratios:
+2025-03-06 20:35:23,213 - INFO - P/E Ratio: 37.41
+2025-03-06 20:35:23,214 - INFO - EPS: $6.29
+2025-03-06 20:35:23,214 - INFO - Profit Margin: 24.30%
+2025-03-06 20:35:23,214 - INFO - ROE: 136.52%
+2025-03-06 20:35:23,216 - INFO - ✅ Financial ratios saved to data/financial_ratios.parquet
+2025-03-06 20:35:23,216 - ERROR - 
+❌ Some financial data could not be fetched for AAPL
+2025-03-06 20:36:04,555 - INFO - 📡 Fetching financial data for AAPL...
+2025-03-06 20:36:04,828 - INFO - ✅ Earnings data saved to data/earnings.parquet
+2025-03-06 20:36:04,829 - INFO - 
+Latest Quarterly Results:
+2025-03-06 20:36:04,829 - INFO - Revenue: $nanB
+2025-03-06 20:36:04,829 - INFO - Earnings: $nanB
+2025-03-06 20:36:05,003 - INFO - ✅ Balance sheet data saved to data/balance_sheets.parquet
+2025-03-06 20:36:05,003 - INFO - 
+Latest Balance Sheet Metrics:
+2025-03-06 20:36:05,003 - INFO - Total Assets: $nanB
+2025-03-06 20:36:05,003 - INFO - Total Liabilities: $nanB
+2025-03-06 20:36:05,003 - INFO - Stockholder Equity: $nanB
+2025-03-06 20:36:05,003 - INFO - Current Ratio: nan
+2025-03-06 20:36:05,233 - INFO - 
+Key Financial Ratios:
+2025-03-06 20:36:05,234 - INFO - P/E Ratio: 37.41
+2025-03-06 20:36:05,234 - INFO - EPS: $6.29
+2025-03-06 20:36:05,234 - INFO - Profit Margin: 24.30%
+2025-03-06 20:36:05,234 - INFO - ROE: 136.52%
+2025-03-06 20:36:05,238 - INFO - ✅ Financial ratios saved to data/financial_ratios.parquet
+2025-03-06 20:36:05,239 - INFO - 
+✅ Successfully fetched all financial data for AAPL!

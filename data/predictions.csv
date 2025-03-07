@@ -1,0 +1,2 @@
+timestamp,action,confidence,price,rsi,macd,news_sentiment,twitter_sentiment
+2025-03-06 20:55:00+00:00,BUY,0.5045658,235.32000732421875,47.73674179986876,0.16246109992286506,-1.0,1.0

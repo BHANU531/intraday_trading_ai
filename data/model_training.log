@@ -1,0 +1,281 @@
+2025-03-06 20:38:43,111 - INFO - Loaded 390 records of stock data with technical indicators
+2025-03-06 20:38:43,177 - ERROR - Error loading sentiment data: 'NaTType' object has no attribute 'normalize'
+2025-03-06 20:38:43,182 - INFO - Loaded financial data successfully
+2025-03-06 20:38:43,183 - ERROR - Error preparing features: "['sentiment_score_x' 'sentiment_numeric_x' 'sentiment_score_y'\n 'sentiment_numeric_y'] not in index"
+2025-03-06 20:38:43,183 - ERROR - Error in main: Could not prepare features
+2025-03-06 20:40:01,892 - INFO - Loaded 390 records of stock data with technical indicators
+2025-03-06 20:40:01,954 - INFO - Processed 361 news articles and 0 tweets
+2025-03-06 20:40:01,959 - INFO - Loaded financial data successfully
+2025-03-06 20:40:01,973 - INFO - Prepared 390 samples with 52 features
+2025-03-06 20:40:01,977 - ERROR - Error training model: The DType <class 'numpy.dtypes.DateTime64DType'> could not be promoted by <class 'numpy.dtypes.Float64DType'>. This means that no common DType exists for the given inputs. For example they cannot be stored in a single array unless the dtype is `object`. The full list of DTypes is: (<class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int64DType'>, <class 'numpy.dtypes.DateTime64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Int64DType'>, <class 'numpy.dtypes.Int64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>, <class 'numpy.dtypes.Float64DType'>)
+2025-03-06 20:40:01,978 - ERROR - Model training failed
+2025-03-06 20:41:19,448 - INFO - Loaded 390 records of stock data with technical indicators
+2025-03-06 20:41:19,509 - INFO - Processed 361 news articles and 0 tweets
+2025-03-06 20:41:19,513 - INFO - Loaded financial data successfully
+2025-03-06 20:41:19,530 - INFO - Prepared 390 samples with 55 features
+2025-03-06 20:41:19,530 - INFO - 
+Feature columns:
+2025-03-06 20:41:19,530 - INFO - - ('Datetime', ''): datetime64[ns, UTC]
+2025-03-06 20:41:19,530 - INFO - - ('Close', 'AAPL'): float64
+2025-03-06 20:41:19,530 - INFO - - ('High', 'AAPL'): float64
+2025-03-06 20:41:19,531 - INFO - - ('Low', 'AAPL'): float64
+2025-03-06 20:41:19,531 - INFO - - ('Open', 'AAPL'): float64
+2025-03-06 20:41:19,531 - INFO - - ('Volume', 'AAPL'): int64
+2025-03-06 20:41:19,531 - INFO - - ('SMA_10', ''): float64
+2025-03-06 20:41:19,531 - INFO - - ('SMA_20', ''): float64
+2025-03-06 20:41:19,531 - INFO - - ('SMA_50', ''): float64
+2025-03-06 20:41:19,531 - INFO - - ('RSI', ''): float64
+2025-03-06 20:41:19,531 - INFO - - ('MACD', ''): float64
+2025-03-06 20:41:19,531 - INFO - - ('MACD_Signal', ''): float64
+2025-03-06 20:41:19,531 - INFO - - ('MACD_Histogram', ''): float64
+2025-03-06 20:41:19,532 - INFO - - ('BB_Upper', ''): float64
+2025-03-06 20:41:19,532 - INFO - - ('BB_Lower', ''): float64
+2025-03-06 20:41:19,532 - INFO - - ('BB_Middle', ''): float64
+2025-03-06 20:41:19,532 - INFO - - ('Volume_SMA', ''): float64
+2025-03-06 20:41:19,532 - INFO - - ('Volume_Change', ''): float64
+2025-03-06 20:41:19,533 - INFO - - ('Price_Change', ''): float64
+2025-03-06 20:41:19,533 - INFO - - ('Price_Change_Pct', ''): float64
+2025-03-06 20:41:19,533 - INFO - - ('Volatility', ''): float64
+2025-03-06 20:41:19,533 - INFO - - ('hour', ''): int32
+2025-03-06 20:41:19,533 - INFO - - ('minute', ''): int32
+2025-03-06 20:41:19,534 - INFO - - ('day_of_week', ''): int32
+2025-03-06 20:41:19,534 - INFO - - ('news_sentiment', ''): float64
+2025-03-06 20:41:19,534 - INFO - - ('news_sentiment_score', ''): float64
+2025-03-06 20:41:19,534 - INFO - - ('twitter_sentiment', ''): float64
+2025-03-06 20:41:19,534 - INFO - - ('twitter_sentiment_score', ''): float64
+2025-03-06 20:41:19,534 - INFO - - ('balance_Total Assets', ''): float64
+2025-03-06 20:41:19,534 - INFO - - ('balance_Total Liabilities', ''): float64
+2025-03-06 20:41:19,534 - INFO - - ('balance_Stockholder Equity', ''): float64
+2025-03-06 20:41:19,534 - INFO - - ('balance_Current Assets', ''): float64
+2025-03-06 20:41:19,534 - INFO - - ('balance_Current Liabilities', ''): float64
+2025-03-06 20:41:19,534 - INFO - - ('balance_Cash', ''): float64
+2025-03-06 20:41:19,534 - INFO - - ('balance_Short Term Investments', ''): float64
+2025-03-06 20:41:19,534 - INFO - - ('balance_Receivables', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('balance_Inventory', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('balance_Long Term Debt', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('balance_PPE', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('ratio_Market Cap', ''): int64
+2025-03-06 20:41:19,535 - INFO - - ('ratio_P/E Ratio', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('ratio_Forward P/E', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('ratio_EPS', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('ratio_Book Value', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('ratio_Revenue', ''): int64
+2025-03-06 20:41:19,535 - INFO - - ('ratio_Net Income', ''): int64
+2025-03-06 20:41:19,535 - INFO - - ('ratio_Profit Margin', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('ratio_Operating Margin', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('ratio_Debt/Equity', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('ratio_ROE', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('latest_revenue', ''): float64
+2025-03-06 20:41:19,535 - INFO - - ('latest_earnings', ''): float64
+2025-03-06 20:41:19,536 - INFO - - ('revenue_growth', ''): float64
+2025-03-06 20:41:19,536 - INFO - - ('earnings_growth', ''): float64
+2025-03-06 20:41:19,536 - INFO - - ('target', ''): int64
+2025-03-06 20:41:19,536 - ERROR - Error training model: 'timestamp'
+2025-03-06 20:41:19,536 - ERROR - Model training failed
+2025-03-06 20:42:09,100 - INFO - Loaded 390 records of stock data with technical indicators
+2025-03-06 20:42:09,160 - INFO - Processed 361 news articles and 0 tweets
+2025-03-06 20:42:09,164 - INFO - Loaded financial data successfully
+2025-03-06 20:42:09,175 - INFO - Prepared 390 samples with 55 features
+2025-03-06 20:42:09,176 - INFO - 
+Feature columns:
+2025-03-06 20:42:09,176 - INFO - - Datetime: datetime64[ns, UTC]
+2025-03-06 20:42:09,176 - INFO - - Close_AAPL: float64
+2025-03-06 20:42:09,176 - INFO - - High_AAPL: float64
+2025-03-06 20:42:09,176 - INFO - - Low_AAPL: float64
+2025-03-06 20:42:09,176 - INFO - - Open_AAPL: float64
+2025-03-06 20:42:09,176 - INFO - - Volume_AAPL: int64
+2025-03-06 20:42:09,176 - INFO - - SMA_10: float64
+2025-03-06 20:42:09,176 - INFO - - SMA_20: float64
+2025-03-06 20:42:09,176 - INFO - - SMA_50: float64
+2025-03-06 20:42:09,176 - INFO - - RSI: float64
+2025-03-06 20:42:09,176 - INFO - - MACD: float64
+2025-03-06 20:42:09,176 - INFO - - MACD_Signal: float64
+2025-03-06 20:42:09,176 - INFO - - MACD_Histogram: float64
+2025-03-06 20:42:09,176 - INFO - - BB_Upper: float64
+2025-03-06 20:42:09,177 - INFO - - BB_Lower: float64
+2025-03-06 20:42:09,177 - INFO - - BB_Middle: float64
+2025-03-06 20:42:09,177 - INFO - - Volume_SMA: float64
+2025-03-06 20:42:09,177 - INFO - - Volume_Change: float64
+2025-03-06 20:42:09,177 - INFO - - Price_Change: float64
+2025-03-06 20:42:09,177 - INFO - - Price_Change_Pct: float64
+2025-03-06 20:42:09,177 - INFO - - Volatility: float64
+2025-03-06 20:42:09,177 - INFO - - hour: int32
+2025-03-06 20:42:09,177 - INFO - - minute: int32
+2025-03-06 20:42:09,177 - INFO - - day_of_week: int32
+2025-03-06 20:42:09,177 - INFO - - news_sentiment: float64
+2025-03-06 20:42:09,177 - INFO - - news_sentiment_score: float64
+2025-03-06 20:42:09,177 - INFO - - twitter_sentiment: float64
+2025-03-06 20:42:09,177 - INFO - - twitter_sentiment_score: float64
+2025-03-06 20:42:09,177 - INFO - - balance_Total Assets: float64
+2025-03-06 20:42:09,177 - INFO - - balance_Total Liabilities: float64
+2025-03-06 20:42:09,177 - INFO - - balance_Stockholder Equity: float64
+2025-03-06 20:42:09,177 - INFO - - balance_Current Assets: float64
+2025-03-06 20:42:09,177 - INFO - - balance_Current Liabilities: float64
+2025-03-06 20:42:09,177 - INFO - - balance_Cash: float64
+2025-03-06 20:42:09,177 - INFO - - balance_Short Term Investments: float64
+2025-03-06 20:42:09,177 - INFO - - balance_Receivables: float64
+2025-03-06 20:42:09,178 - INFO - - balance_Inventory: float64
+2025-03-06 20:42:09,178 - INFO - - balance_Long Term Debt: float64
+2025-03-06 20:42:09,178 - INFO - - balance_PPE: float64
+2025-03-06 20:42:09,178 - INFO - - ratio_Market Cap: int64
+2025-03-06 20:42:09,178 - INFO - - ratio_P/E Ratio: float64
+2025-03-06 20:42:09,178 - INFO - - ratio_Forward P/E: float64
+2025-03-06 20:42:09,178 - INFO - - ratio_EPS: float64
+2025-03-06 20:42:09,178 - INFO - - ratio_Book Value: float64
+2025-03-06 20:42:09,178 - INFO - - ratio_Revenue: int64
+2025-03-06 20:42:09,178 - INFO - - ratio_Net Income: int64
+2025-03-06 20:42:09,178 - INFO - - ratio_Profit Margin: float64
+2025-03-06 20:42:09,178 - INFO - - ratio_Operating Margin: float64
+2025-03-06 20:42:09,178 - INFO - - ratio_Debt/Equity: float64
+2025-03-06 20:42:09,178 - INFO - - ratio_ROE: float64
+2025-03-06 20:42:09,178 - INFO - - latest_revenue: float64
+2025-03-06 20:42:09,178 - INFO - - latest_earnings: float64
+2025-03-06 20:42:09,178 - INFO - - revenue_growth: float64
+2025-03-06 20:42:09,178 - INFO - - earnings_growth: float64
+2025-03-06 20:42:09,178 - INFO - - target: int64
+2025-03-06 20:42:09,183 - ERROR - Error training model: XGBClassifier.fit() got an unexpected keyword argument 'eval_metric'
+2025-03-06 20:42:09,183 - ERROR - Model training failed
+2025-03-06 20:42:44,696 - INFO - Loaded 390 records of stock data with technical indicators
+2025-03-06 20:42:44,757 - INFO - Processed 361 news articles and 0 tweets
+2025-03-06 20:42:44,761 - INFO - Loaded financial data successfully
+2025-03-06 20:42:44,772 - INFO - Prepared 390 samples with 55 features
+2025-03-06 20:42:44,772 - INFO - 
+Feature columns:
+2025-03-06 20:42:44,772 - INFO - - Datetime: datetime64[ns, UTC]
+2025-03-06 20:42:44,772 - INFO - - Close_AAPL: float64
+2025-03-06 20:42:44,773 - INFO - - High_AAPL: float64
+2025-03-06 20:42:44,773 - INFO - - Low_AAPL: float64
+2025-03-06 20:42:44,773 - INFO - - Open_AAPL: float64
+2025-03-06 20:42:44,773 - INFO - - Volume_AAPL: int64
+2025-03-06 20:42:44,773 - INFO - - SMA_10: float64
+2025-03-06 20:42:44,773 - INFO - - SMA_20: float64
+2025-03-06 20:42:44,773 - INFO - - SMA_50: float64
+2025-03-06 20:42:44,773 - INFO - - RSI: float64
+2025-03-06 20:42:44,773 - INFO - - MACD: float64
+2025-03-06 20:42:44,773 - INFO - - MACD_Signal: float64
+2025-03-06 20:42:44,773 - INFO - - MACD_Histogram: float64
+2025-03-06 20:42:44,773 - INFO - - BB_Upper: float64
+2025-03-06 20:42:44,773 - INFO - - BB_Lower: float64
+2025-03-06 20:42:44,774 - INFO - - BB_Middle: float64
+2025-03-06 20:42:44,774 - INFO - - Volume_SMA: float64
+2025-03-06 20:42:44,774 - INFO - - Volume_Change: float64
+2025-03-06 20:42:44,774 - INFO - - Price_Change: float64
+2025-03-06 20:42:44,774 - INFO - - Price_Change_Pct: float64
+2025-03-06 20:42:44,774 - INFO - - Volatility: float64
+2025-03-06 20:42:44,774 - INFO - - hour: int32
+2025-03-06 20:42:44,774 - INFO - - minute: int32
+2025-03-06 20:42:44,774 - INFO - - day_of_week: int32
+2025-03-06 20:42:44,774 - INFO - - news_sentiment: float64
+2025-03-06 20:42:44,774 - INFO - - news_sentiment_score: float64
+2025-03-06 20:42:44,774 - INFO - - twitter_sentiment: float64
+2025-03-06 20:42:44,774 - INFO - - twitter_sentiment_score: float64
+2025-03-06 20:42:44,774 - INFO - - balance_Total Assets: float64
+2025-03-06 20:42:44,774 - INFO - - balance_Total Liabilities: float64
+2025-03-06 20:42:44,774 - INFO - - balance_Stockholder Equity: float64
+2025-03-06 20:42:44,774 - INFO - - balance_Current Assets: float64
+2025-03-06 20:42:44,775 - INFO - - balance_Current Liabilities: float64
+2025-03-06 20:42:44,775 - INFO - - balance_Cash: float64
+2025-03-06 20:42:44,775 - INFO - - balance_Short Term Investments: float64
+2025-03-06 20:42:44,775 - INFO - - balance_Receivables: float64
+2025-03-06 20:42:44,775 - INFO - - balance_Inventory: float64
+2025-03-06 20:42:44,775 - INFO - - balance_Long Term Debt: float64
+2025-03-06 20:42:44,775 - INFO - - balance_PPE: float64
+2025-03-06 20:42:44,775 - INFO - - ratio_Market Cap: int64
+2025-03-06 20:42:44,775 - INFO - - ratio_P/E Ratio: float64
+2025-03-06 20:42:44,775 - INFO - - ratio_Forward P/E: float64
+2025-03-06 20:42:44,775 - INFO - - ratio_EPS: float64
+2025-03-06 20:42:44,775 - INFO - - ratio_Book Value: float64
+2025-03-06 20:42:44,775 - INFO - - ratio_Revenue: int64
+2025-03-06 20:42:44,775 - INFO - - ratio_Net Income: int64
+2025-03-06 20:42:44,775 - INFO - - ratio_Profit Margin: float64
+2025-03-06 20:42:44,775 - INFO - - ratio_Operating Margin: float64
+2025-03-06 20:42:44,775 - INFO - - ratio_Debt/Equity: float64
+2025-03-06 20:42:44,775 - INFO - - ratio_ROE: float64
+2025-03-06 20:42:44,775 - INFO - - latest_revenue: float64
+2025-03-06 20:42:44,775 - INFO - - latest_earnings: float64
+2025-03-06 20:42:44,775 - INFO - - revenue_growth: float64
+2025-03-06 20:42:44,775 - INFO - - earnings_growth: float64
+2025-03-06 20:42:44,776 - INFO - - target: int64
+2025-03-06 20:42:44,781 - ERROR - Error training model: XGBClassifier.fit() got an unexpected keyword argument 'early_stopping_rounds'
+2025-03-06 20:42:44,782 - ERROR - Model training failed
+2025-03-06 20:43:18,029 - INFO - Loaded 390 records of stock data with technical indicators
+2025-03-06 20:43:18,090 - INFO - Processed 361 news articles and 0 tweets
+2025-03-06 20:43:18,094 - INFO - Loaded financial data successfully
+2025-03-06 20:43:18,106 - INFO - Prepared 390 samples with 55 features
+2025-03-06 20:43:18,106 - INFO - 
+Feature columns:
+2025-03-06 20:43:18,106 - INFO - - Datetime: datetime64[ns, UTC]
+2025-03-06 20:43:18,106 - INFO - - Close_AAPL: float64
+2025-03-06 20:43:18,106 - INFO - - High_AAPL: float64
+2025-03-06 20:43:18,106 - INFO - - Low_AAPL: float64
+2025-03-06 20:43:18,106 - INFO - - Open_AAPL: float64
+2025-03-06 20:43:18,106 - INFO - - Volume_AAPL: int64
+2025-03-06 20:43:18,106 - INFO - - SMA_10: float64
+2025-03-06 20:43:18,106 - INFO - - SMA_20: float64
+2025-03-06 20:43:18,106 - INFO - - SMA_50: float64
+2025-03-06 20:43:18,106 - INFO - - RSI: float64
+2025-03-06 20:43:18,106 - INFO - - MACD: float64
+2025-03-06 20:43:18,106 - INFO - - MACD_Signal: float64
+2025-03-06 20:43:18,106 - INFO - - MACD_Histogram: float64
+2025-03-06 20:43:18,106 - INFO - - BB_Upper: float64
+2025-03-06 20:43:18,107 - INFO - - BB_Lower: float64
+2025-03-06 20:43:18,107 - INFO - - BB_Middle: float64
+2025-03-06 20:43:18,107 - INFO - - Volume_SMA: float64
+2025-03-06 20:43:18,107 - INFO - - Volume_Change: float64
+2025-03-06 20:43:18,107 - INFO - - Price_Change: float64
+2025-03-06 20:43:18,107 - INFO - - Price_Change_Pct: float64
+2025-03-06 20:43:18,107 - INFO - - Volatility: float64
+2025-03-06 20:43:18,107 - INFO - - hour: int32
+2025-03-06 20:43:18,107 - INFO - - minute: int32
+2025-03-06 20:43:18,107 - INFO - - day_of_week: int32
+2025-03-06 20:43:18,107 - INFO - - news_sentiment: float64
+2025-03-06 20:43:18,107 - INFO - - news_sentiment_score: float64
+2025-03-06 20:43:18,107 - INFO - - twitter_sentiment: float64
+2025-03-06 20:43:18,107 - INFO - - twitter_sentiment_score: float64
+2025-03-06 20:43:18,107 - INFO - - balance_Total Assets: float64
+2025-03-06 20:43:18,107 - INFO - - balance_Total Liabilities: float64
+2025-03-06 20:43:18,107 - INFO - - balance_Stockholder Equity: float64
+2025-03-06 20:43:18,107 - INFO - - balance_Current Assets: float64
+2025-03-06 20:43:18,107 - INFO - - balance_Current Liabilities: float64
+2025-03-06 20:43:18,107 - INFO - - balance_Cash: float64
+2025-03-06 20:43:18,107 - INFO - - balance_Short Term Investments: float64
+2025-03-06 20:43:18,107 - INFO - - balance_Receivables: float64
+2025-03-06 20:43:18,107 - INFO - - balance_Inventory: float64
+2025-03-06 20:43:18,108 - INFO - - balance_Long Term Debt: float64
+2025-03-06 20:43:18,108 - INFO - - balance_PPE: float64
+2025-03-06 20:43:18,108 - INFO - - ratio_Market Cap: int64
+2025-03-06 20:43:18,108 - INFO - - ratio_P/E Ratio: float64
+2025-03-06 20:43:18,108 - INFO - - ratio_Forward P/E: float64
+2025-03-06 20:43:18,108 - INFO - - ratio_EPS: float64
+2025-03-06 20:43:18,108 - INFO - - ratio_Book Value: float64
+2025-03-06 20:43:18,108 - INFO - - ratio_Revenue: int64
+2025-03-06 20:43:18,108 - INFO - - ratio_Net Income: int64
+2025-03-06 20:43:18,108 - INFO - - ratio_Profit Margin: float64
+2025-03-06 20:43:18,108 - INFO - - ratio_Operating Margin: float64
+2025-03-06 20:43:18,108 - INFO - - ratio_Debt/Equity: float64
+2025-03-06 20:43:18,108 - INFO - - ratio_ROE: float64
+2025-03-06 20:43:18,108 - INFO - - latest_revenue: float64
+2025-03-06 20:43:18,108 - INFO - - latest_earnings: float64
+2025-03-06 20:43:18,108 - INFO - - revenue_growth: float64
+2025-03-06 20:43:18,108 - INFO - - earnings_growth: float64
+2025-03-06 20:43:18,108 - INFO - - target: int64
+2025-03-06 20:43:18,154 - INFO - 
+Model Performance:
+2025-03-06 20:43:18,154 - INFO - Train accuracy: 0.6795
+2025-03-06 20:43:18,154 - INFO - Test accuracy: 0.5385
+2025-03-06 20:43:18,155 - INFO - 
+Top 10 Most Important Features:
+2025-03-06 20:43:18,155 - INFO - Low_AAPL: 0.0772
+2025-03-06 20:43:18,155 - INFO - SMA_20: 0.0747
+2025-03-06 20:43:18,155 - INFO - SMA_10: 0.0581
+2025-03-06 20:43:18,155 - INFO - Volume_SMA: 0.0573
+2025-03-06 20:43:18,155 - INFO - RSI: 0.0558
+2025-03-06 20:43:18,155 - INFO - Volatility: 0.0553
+2025-03-06 20:43:18,155 - INFO - MACD: 0.0548
+2025-03-06 20:43:18,156 - INFO - Close_AAPL: 0.0537
+2025-03-06 20:43:18,156 - INFO - Open_AAPL: 0.0527
+2025-03-06 20:43:18,156 - INFO - BB_Lower: 0.0504
+2025-03-06 20:43:18,156 - INFO - 
+✅ Model training completed successfully!
+2025-03-06 20:43:18,156 - INFO - Model saved to models/trading_model.json
+2025-03-06 20:43:18,156 - INFO - Scaler saved to models/feature_scaler.pkl

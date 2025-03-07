@@ -1,0 +1,42 @@
+2025-03-06 19:22:33,487 - INFO - Starting stock data fetcher...
+2025-03-06 19:22:33,487 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:22:33,487 - INFO - Fetching stock data for AAPL from 2025-02-27 19:22:33.487710 to 2025-03-06 19:22:33.487710
+2025-03-06 19:22:33,681 - INFO - Successfully saved 390 records to data/AAPL_stock_data.parquet
+2025-03-06 19:22:33,682 - ERROR - Error fetching data: unsupported format string passed to Series.__format__
+2025-03-06 19:22:33,682 - ERROR - Failed to fetch stock data
+2025-03-06 19:23:09,654 - INFO - Starting stock data fetcher...
+2025-03-06 19:23:09,655 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:23:09,655 - INFO - Fetching stock data for AAPL from 2025-02-27 19:23:09.655315 to 2025-03-06 19:23:09.655315
+2025-03-06 19:23:09,841 - INFO - Successfully saved 390 records to data/AAPL_stock_data.parquet
+2025-03-06 19:23:09,842 - INFO - Latest close price: $235.32
+2025-03-06 19:23:09,842 - INFO - Stock data fetching completed successfully
+2025-03-06 19:24:13,988 - INFO - Starting stock data fetcher...
+2025-03-06 19:24:13,988 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:24:13,989 - INFO - Fetching stock data for AAPL from 2025-02-27 19:24:13.988999 to 2025-03-06 19:24:13.988999
+2025-03-06 19:24:14,173 - INFO - Successfully saved 390 records to data/AAPL_stock_data.parquet
+2025-03-06 19:24:14,173 - INFO - Latest close price: $235.32
+2025-03-06 19:24:14,173 - INFO - Stock data fetching completed successfully
+2025-03-06 19:25:25,747 - INFO - Starting stock data fetcher...
+2025-03-06 19:25:25,747 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:25:25,747 - INFO - Fetching stock data for AAPL from 2025-02-27 19:25:25.747885 to 2025-03-06 19:25:25.747885
+2025-03-06 19:25:25,931 - INFO - Successfully saved 390 records to data/AAPL_stock_data.parquet
+2025-03-06 19:25:25,931 - ERROR - Error fetching data: unsupported format string passed to Series.__format__
+2025-03-06 19:25:25,931 - ERROR - Failed to fetch stock data
+2025-03-06 19:26:09,915 - INFO - Starting stock data fetcher...
+2025-03-06 19:26:09,915 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:26:09,915 - INFO - Fetching stock data for AAPL from 2025-02-27 19:26:09.915743 to 2025-03-06 19:26:09.915743
+2025-03-06 19:26:10,096 - INFO - Successfully saved 390 records to data/AAPL_stock_data.parquet
+2025-03-06 19:26:10,097 - ERROR - Error fetching data: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-06 19:26:10,097 - ERROR - Failed to fetch stock data
+2025-03-06 19:26:46,675 - INFO - Starting stock data fetcher...
+2025-03-06 19:26:46,676 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:26:46,676 - INFO - Fetching stock data for AAPL from 2025-02-27 19:26:46.676113 to 2025-03-06 19:26:46.676113
+2025-03-06 19:26:46,899 - INFO - Successfully saved 390 records to data/AAPL_stock_data.parquet
+2025-03-06 19:26:46,899 - ERROR - Error fetching data: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-06 19:26:46,899 - ERROR - Failed to fetch stock data
+2025-03-06 19:27:29,167 - INFO - Starting stock data fetcher...
+2025-03-06 19:27:29,167 - INFO - Ensuring data directory exists at data/
+2025-03-06 19:27:29,167 - INFO - Fetching stock data for AAPL from 2025-02-27 19:27:29.167336 to 2025-03-06 19:27:29.167336
+2025-03-06 19:27:29,351 - INFO - Successfully saved 390 records to data/AAPL_stock_data.parquet
+2025-03-06 19:27:29,351 - ERROR - Error fetching data: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-06 19:27:29,351 - ERROR - Failed to fetch stock data

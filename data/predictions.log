@@ -1,0 +1,137 @@
+2025-03-06 20:45:39,330 - INFO - Model and scaler loaded successfully
+2025-03-06 20:45:39,406 - ERROR - Error preparing prediction features: 'sentiment_numeric'
+2025-03-06 20:45:39,406 - ERROR - Error in main: Could not prepare features
+2025-03-06 20:46:13,044 - INFO - Model and scaler loaded successfully
+2025-03-06 20:46:13,122 - ERROR - Error making prediction: "['revenue_growth', 'earnings_growth'] not in index"
+2025-03-06 20:46:13,122 - ERROR - Error in main: Could not make prediction
+2025-03-06 20:50:05,835 - INFO - Model and scaler loaded successfully
+2025-03-06 20:50:05,914 - INFO - 
+Feature columns:
+2025-03-06 20:50:05,914 - INFO - - Close_AAPL: 235.32000732421875
+2025-03-06 20:50:05,914 - INFO - - High_AAPL: 235.66000366210938
+2025-03-06 20:50:05,914 - INFO - - Low_AAPL: 235.0
+2025-03-06 20:50:05,914 - INFO - - Open_AAPL: 235.5800018310547
+2025-03-06 20:50:05,914 - INFO - - Volume_AAPL: 1804252
+2025-03-06 20:50:05,914 - INFO - - fetch_time: 2025-03-06 19:27:29.333730
+2025-03-06 20:50:05,914 - INFO - - SMA_10: 235.11399993896484
+2025-03-06 20:50:05,914 - INFO - - SMA_20: 234.82370529174804
+2025-03-06 20:50:05,914 - INFO - - SMA_50: 234.69033752441408
+2025-03-06 20:50:05,914 - INFO - - RSI: 47.73674179986876
+2025-03-06 20:50:05,915 - INFO - - MACD: 0.16246109992286506
+2025-03-06 20:50:05,915 - INFO - - MACD_Signal: 0.0825549653150891
+2025-03-06 20:50:05,915 - INFO - - MACD_Histogram: 0.07990613460777596
+2025-03-06 20:50:05,915 - INFO - - BB_Upper: 235.94169478574838
+2025-03-06 20:50:05,915 - INFO - - BB_Lower: 233.7057157977477
+2025-03-06 20:50:05,915 - INFO - - BB_Middle: 234.82370529174804
+2025-03-06 20:50:05,915 - INFO - - Volume_SMA: 527638.55
+2025-03-06 20:50:05,915 - INFO - - Volume_Change: 0.9553136680527514
+2025-03-06 20:50:05,915 - INFO - - Price_Change: -0.0015698379793580575
+2025-03-06 20:50:05,915 - INFO - - Price_Change_Pct: -0.15698379793580575
+2025-03-06 20:50:05,915 - INFO - - Volatility: 0.001787358841565469
+2025-03-06 20:50:05,915 - INFO - - hour: 20
+2025-03-06 20:50:05,915 - INFO - - minute: 55
+2025-03-06 20:50:05,915 - INFO - - day_of_week: 3
+2025-03-06 20:50:05,915 - INFO - - news_sentiment: -1
+2025-03-06 20:50:05,916 - INFO - - news_sentiment_score: 0.981268584728241
+2025-03-06 20:50:05,916 - INFO - - twitter_sentiment: 1
+2025-03-06 20:50:05,916 - INFO - - twitter_sentiment_score: 0.999982476234436
+2025-03-06 20:50:05,916 - INFO - - balance_Total Assets: 0.0
+2025-03-06 20:50:05,916 - INFO - - balance_Total Liabilities: 0.0
+2025-03-06 20:50:05,916 - INFO - - balance_Stockholder Equity: 0.0
+2025-03-06 20:50:05,916 - INFO - - balance_Current Assets: 0.0
+2025-03-06 20:50:05,916 - INFO - - balance_Current Liabilities: 0.0
+2025-03-06 20:50:05,916 - INFO - - balance_Cash: 0.0
+2025-03-06 20:50:05,916 - INFO - - balance_Short Term Investments: 0.0
+2025-03-06 20:50:05,916 - INFO - - balance_Receivables: 0.0
+2025-03-06 20:50:05,916 - INFO - - balance_Inventory: 0.0
+2025-03-06 20:50:05,916 - INFO - - balance_Long Term Debt: 0.0
+2025-03-06 20:50:05,916 - INFO - - balance_PPE: 0.0
+2025-03-06 20:50:05,916 - INFO - - ratio_Market Cap: 3535151038464
+2025-03-06 20:50:05,916 - INFO - - ratio_P/E Ratio: 37.413357
+2025-03-06 20:50:05,916 - INFO - - ratio_Forward P/E: 28.318892
+2025-03-06 20:50:05,916 - INFO - - ratio_EPS: 6.29
+2025-03-06 20:50:05,916 - INFO - - ratio_Book Value: 4.438
+2025-03-06 20:50:05,916 - INFO - - ratio_Revenue: 395760009216
+2025-03-06 20:50:05,916 - INFO - - ratio_Net Income: 96150003712
+2025-03-06 20:50:05,916 - INFO - - ratio_Profit Margin: 0.24295
+2025-03-06 20:50:05,916 - INFO - - ratio_Operating Margin: 0.34459
+2025-03-06 20:50:05,917 - INFO - - ratio_Debt/Equity: 145.0
+2025-03-06 20:50:05,917 - INFO - - ratio_ROE: 1.3652
+2025-03-06 20:50:05,917 - INFO - - latest_revenue: 0.0
+2025-03-06 20:50:05,917 - INFO - - latest_earnings: 0.0
+2025-03-06 20:50:05,917 - INFO - - revenue_growth: 0
+2025-03-06 20:50:05,917 - INFO - - earnings_growth: 0
+2025-03-06 20:50:05,920 - INFO - 
+🔮 Prediction Results:
+2025-03-06 20:50:05,920 - INFO - Timestamp: 2025-03-06 20:55:00+00:00
+2025-03-06 20:50:05,920 - INFO - Action: BUY
+2025-03-06 20:50:05,920 - INFO - Confidence: 50.46%
+2025-03-06 20:50:05,921 - ERROR - Error in main: unsupported format string passed to Series.__format__
+2025-03-06 20:50:33,390 - INFO - Model and scaler loaded successfully
+2025-03-06 20:50:33,468 - INFO - 
+Feature columns:
+2025-03-06 20:50:33,468 - INFO - - Close_AAPL: 235.32000732421875
+2025-03-06 20:50:33,468 - INFO - - High_AAPL: 235.66000366210938
+2025-03-06 20:50:33,468 - INFO - - Low_AAPL: 235.0
+2025-03-06 20:50:33,469 - INFO - - Open_AAPL: 235.5800018310547
+2025-03-06 20:50:33,469 - INFO - - Volume_AAPL: 1804252
+2025-03-06 20:50:33,469 - INFO - - fetch_time: 2025-03-06 19:27:29.333730
+2025-03-06 20:50:33,469 - INFO - - SMA_10: 235.11399993896484
+2025-03-06 20:50:33,469 - INFO - - SMA_20: 234.82370529174804
+2025-03-06 20:50:33,469 - INFO - - SMA_50: 234.69033752441408
+2025-03-06 20:50:33,469 - INFO - - RSI: 47.73674179986876
+2025-03-06 20:50:33,469 - INFO - - MACD: 0.16246109992286506
+2025-03-06 20:50:33,469 - INFO - - MACD_Signal: 0.0825549653150891
+2025-03-06 20:50:33,469 - INFO - - MACD_Histogram: 0.07990613460777596
+2025-03-06 20:50:33,469 - INFO - - BB_Upper: 235.94169478574838
+2025-03-06 20:50:33,469 - INFO - - BB_Lower: 233.7057157977477
+2025-03-06 20:50:33,469 - INFO - - BB_Middle: 234.82370529174804
+2025-03-06 20:50:33,469 - INFO - - Volume_SMA: 527638.55
+2025-03-06 20:50:33,469 - INFO - - Volume_Change: 0.9553136680527514
+2025-03-06 20:50:33,469 - INFO - - Price_Change: -0.0015698379793580575
+2025-03-06 20:50:33,469 - INFO - - Price_Change_Pct: -0.15698379793580575
+2025-03-06 20:50:33,469 - INFO - - Volatility: 0.001787358841565469
+2025-03-06 20:50:33,469 - INFO - - hour: 20
+2025-03-06 20:50:33,469 - INFO - - minute: 55
+2025-03-06 20:50:33,470 - INFO - - day_of_week: 3
+2025-03-06 20:50:33,470 - INFO - - news_sentiment: -1
+2025-03-06 20:50:33,470 - INFO - - news_sentiment_score: 0.981268584728241
+2025-03-06 20:50:33,470 - INFO - - twitter_sentiment: 1
+2025-03-06 20:50:33,470 - INFO - - twitter_sentiment_score: 0.999982476234436
+2025-03-06 20:50:33,470 - INFO - - balance_Total Assets: 0.0
+2025-03-06 20:50:33,470 - INFO - - balance_Total Liabilities: 0.0
+2025-03-06 20:50:33,470 - INFO - - balance_Stockholder Equity: 0.0
+2025-03-06 20:50:33,470 - INFO - - balance_Current Assets: 0.0
+2025-03-06 20:50:33,470 - INFO - - balance_Current Liabilities: 0.0
+2025-03-06 20:50:33,470 - INFO - - balance_Cash: 0.0
+2025-03-06 20:50:33,470 - INFO - - balance_Short Term Investments: 0.0
+2025-03-06 20:50:33,470 - INFO - - balance_Receivables: 0.0
+2025-03-06 20:50:33,470 - INFO - - balance_Inventory: 0.0
+2025-03-06 20:50:33,470 - INFO - - balance_Long Term Debt: 0.0
+2025-03-06 20:50:33,470 - INFO - - balance_PPE: 0.0
+2025-03-06 20:50:33,470 - INFO - - ratio_Market Cap: 3535151038464
+2025-03-06 20:50:33,470 - INFO - - ratio_P/E Ratio: 37.413357
+2025-03-06 20:50:33,470 - INFO - - ratio_Forward P/E: 28.318892
+2025-03-06 20:50:33,470 - INFO - - ratio_EPS: 6.29
+2025-03-06 20:50:33,470 - INFO - - ratio_Book Value: 4.438
+2025-03-06 20:50:33,470 - INFO - - ratio_Revenue: 395760009216
+2025-03-06 20:50:33,470 - INFO - - ratio_Net Income: 96150003712
+2025-03-06 20:50:33,471 - INFO - - ratio_Profit Margin: 0.24295
+2025-03-06 20:50:33,471 - INFO - - ratio_Operating Margin: 0.34459
+2025-03-06 20:50:33,471 - INFO - - ratio_Debt/Equity: 145.0
+2025-03-06 20:50:33,471 - INFO - - ratio_ROE: 1.3652
+2025-03-06 20:50:33,471 - INFO - - latest_revenue: 0.0
+2025-03-06 20:50:33,471 - INFO - - latest_earnings: 0.0
+2025-03-06 20:50:33,471 - INFO - - revenue_growth: 0
+2025-03-06 20:50:33,471 - INFO - - earnings_growth: 0
+2025-03-06 20:50:33,474 - INFO - 
+🔮 Prediction Results:
+2025-03-06 20:50:33,474 - INFO - Timestamp: 2025-03-06 20:55:00+00:00
+2025-03-06 20:50:33,475 - INFO - Action: BUY
+2025-03-06 20:50:33,475 - INFO - Confidence: 50.46%
+2025-03-06 20:50:33,475 - INFO - Current Price: $235.32
+2025-03-06 20:50:33,475 - INFO - RSI: 47.74
+2025-03-06 20:50:33,475 - INFO - MACD: 0.16
+2025-03-06 20:50:33,475 - INFO - News Sentiment: -1.00
+2025-03-06 20:50:33,475 - INFO - Twitter Sentiment: 1.00
+2025-03-06 20:50:33,477 - INFO - Prediction saved to data/predictions.csv
