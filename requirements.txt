@@ -1,0 +1,29 @@
+# Data manipulation and analysis
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Data storage and serialization
+joblib>=1.2.0
+
+# Financial data
+yfinance>=0.2.0
+
+# Web scraping and automation
+selenium>=4.15.0
+feedparser>=6.0.10
+
+# Natural Language Processing
+transformers>=4.35.0
+torch>=2.1.0     # Required for transformers
+
+# Data compression
+python-snappy>=0.6.1  # For parquet compression
+
+# Streamlit
+streamlit>=1.22.0
+plotly>=5.13.0
+python-dateutil>=2.8.2
+python-dotenv>=0.19.0 
