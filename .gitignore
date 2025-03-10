@@ -1,11 +1,13 @@
 # Data files
-data/
+data/*
+!data/.gitkeep
 *.parquet
 *.csv
 *.log
 
 # Model files
-models/
+models/*
+!models/.gitkeep
 *.joblib
 
 # Python
